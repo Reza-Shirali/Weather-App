@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reza Shirali | Weather App</title>
+    <link rel="stylesheet" href="./assets/styles/app.css" />
+  </head>
+  <body>
+    <div class="search">
+      <img
+        src="./assets/images/location.png"
+        alt="location icon"
+        class="location"
+      />
+      <input type="text" placeholder="Enter city..." class="input__city" />
+      <button class="search__btn">Search</button>
+    </div>
+    <div class="weather"><span class="loader"></span></div>
+    <div class="forecast"></div>
+    <div class="modal">
+      <div class="modal__wrapper">
+        <div class="modal__btn-wrapper">
+          <span class="modal__button">X</span>
+        </div>
+        <div class="caption__wrapper">
+          <p class="caption">test</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/scripts/app.js" type="module"></script>
+  </body>
+</html>
